@@ -67,7 +67,7 @@ jobs:
           text-file: octofit-tracker/frontend/package.json
           keyphrase: '"react": "^19'
           minimum-occurrences: 1
-          case-sensitive: false
+          case-sensitive: true
 
       - name: Check Express dependency
         id: check-express
